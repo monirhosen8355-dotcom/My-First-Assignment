@@ -108,7 +108,7 @@ nav ul li a{
   color: #627382;
   text-align: center;
   margin: 0;
-  
+
 }
 .card-container{
 display: flex;
@@ -134,7 +134,57 @@ margin-top: 44px;
 .card h3{
   font-size: 24px;
   font-weight: 600;
-  margin: 0 ;
+  margin: 0 ;}
 
+.middle-container{
+  display: flex;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px;
+  align-items: center;
 }
+.bangla{
+ color: #30B868;
+ margin-bottom: 16px;
+}
+.paragraph{
+  border: 2px solid tomato;
+}
+.paragraph h1 {
+  font-size: 35px;
+  font-weight: 700px;
+  margin-top:  16px;
+  color: #001931;
+}
+.paragraph .parag{
+  margin-bottom: 40px;
+  color: #627382;
+  font-size: 16px;
+}
+.paragraph ul li {
+  width: 400px;
+  align-items: flex-start;
+  color: #001931;
+  gap: 6px;
+  display: flex;
+  
+}
+.paragraph ul{
+display: flex;
+  flex-direction: column; 
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.features li i {
+  color: #35dc7a;
+}
+
+
+
+
+
 
