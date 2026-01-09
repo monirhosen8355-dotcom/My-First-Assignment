@@ -96,4 +96,45 @@ nav ul li a{
   margin-bottom: 16px;
 }
 
+/* card section */
+.title{
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  margin-bottom: 16px;
+}
+.sub-title, .card p{
+  color: #627382;
+  text-align: center;
+  margin: 0;
+  
+}
+.card-container{
+display: flex;
+gap: 24px;
+margin-top: 44px;
+}
+.card{
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 8px 0px;
+  display: flex ;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 69px 0px;
+}
+.card img{
+  background-color: #F95555;
+  border-radius: 100%;
+  padding: 13.5px;
+}
+.card h3{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 ;
+
+}
 
